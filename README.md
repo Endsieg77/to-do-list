@@ -1,4 +1,9 @@
 # to-do-list
 
-demo
+```bash
+npm install
+```
 
+```bash
+npm start
+```
