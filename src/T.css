@@ -1,0 +1,41 @@
+.to-do-list {
+  opacity: 0.93;
+  position: relative;
+  font-family: 'Oswald-Regular';
+  border-radius: 1.5rem;
+  width: 650px;
+  height: 600px;
+  padding-top: 0.8rem;
+  color: aliceblue;
+  background-color: rgb(29, 103, 214);
+}
+
+.to-do-list-title {
+  font-family: 'Comic Sans MS';
+}
+
+.list-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
+
+.list-items {
+  position: relative;
+  margin-left: 4.541rem;
+  margin-top: 0.8rem;
+  text-align: left;
+  font-size: 24px;
+  list-style-type: ' - ';
+}
+
+.list-items-completed {
+    text-decoration: line-through;
+}
+
+.list-buttons-t,
+.add-new-item-t {
+  margin-right: 1.4rem;
+  float: right;
+}

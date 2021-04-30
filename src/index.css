@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background-color: #2d39ddc5
+}
+
+.input {
+  font-family: 'Oswald-Regular';
+  font-size: 25px;
+  height: 28px;
+  width: 410px;
+  padding-left: 0.5rem;
+  background-color: transparent;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 3px;
+  color: aliceblue;
+  border-color: aliceblue;
+}
+
+.input::placeholder {
+  color: rgba(240, 248, 255, 0.459);
+}
+
+.input:focus {
+outline: none;
+}
+
+.tick-button {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+  background: black;
+  border: none;
+  border-radius: 1.8rem;
+  position: relative;
+  margin-left: 5rem;
+  cursor: pointer;
+}
+  
+.tick-button::before {
+    content: ' ';
+}
+  
+.list-buttons,
+.add-new-item {
+  height: 1.8rem;
+  width: 1.8rem;
+  text-align: center;
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+  background: black;
+  border: none;
+  border-radius: 1.5rem;
+  position: relative;
+  cursor: pointer;
+}
+  
+.list-buttons:hover,
+.add-new-item:hover,
+.tick-button:hover,
+.tick-button-focus {
+  background: white;
+  color: rgba(20, 207, 231, 0.555);
+}
+  
+.list-buttons:focus,
+.add-new-item:focus,
+.tick-button:focus {
+  outline: none;
+}

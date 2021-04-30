@@ -1,0 +1,121 @@
+.main-title {
+    text-align: left;
+    margin-left: 3rem;
+    color: aliceblue;
+    font-family: 'Comic Sans MS';
+}
+
+.left-sidebar {
+    margin-left: 0.65rem;
+    margin-right: 0.65rem;
+    margin-top: 0.65rem;
+    width: 450px;
+    height: 600px;
+    background-color: darkslateblue;
+}
+
+.main-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-sidebar-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-of-list {
+    width: 330px;
+    margin-left: 1.3rem;
+    color: aliceblue;
+    border: none;
+    background: none;
+    font-family: 'Oswald-Regular';
+    font-size: 22px;
+    float: left;
+    text-align: left;
+    cursor: pointer;
+}
+
+.list-of-list::before {
+    content: '- ';
+}
+
+.list-of-list:hover {
+    color: rgb(123, 185, 240);
+}
+
+.list-of-list:focus {
+    outline: none;
+}
+
+.add-new-item-list-container {
+    margin-right: 1rem;
+    float: right;
+}
+
+.list-buttons-list-container {
+    margin-right: 1rem;
+    float: right;
+}
+
+.input-list-container {
+    position: relative;
+    font-size: 20px;
+    width: 270px;
+}
+
+.title-input-area {
+    width: 400px;
+    height: 50px;
+    margin-left: 1.5rem;
+}
+
+.list-item-area {
+    width: 400px;
+    padding: 0.2rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.list-item-area-focus {
+    background-color: darkmagenta;
+}
+
+.listarea {
+    list-style-type: none;
+}
+
+.clear-all {
+    left: 22rem;
+    bottom: 2.5rem;
+    position: absolute;
+    border: none;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    color: aliceblue;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.clear-all:hover {
+    color: rgb(123, 185, 240);
+}
+
+.clear-all:focus {
+    outline: none;
+}
+
+.first-letter {
+    text-decoration: underline 0.2rem;
+}
+
+.empty-hint {
+    height: 60px;
+    position: relative;
+    font-family: 'Oswald Regular';
+    font-size: 45px;
+    color: aliceblue;
+    transform: translate(58%, 379%);
+}
